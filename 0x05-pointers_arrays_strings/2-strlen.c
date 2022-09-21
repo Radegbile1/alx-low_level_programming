@@ -6,7 +6,7 @@
  * Return: returns length of thr string;
  */
 
-int _strlen(char *s)
+void _strlen(char *s)
 {
 	int i;
 
@@ -15,6 +15,6 @@ int _strlen(char *s)
 	while ((s[i]) ! = '\0')
 	{
 		i++;
+
 	}
-return(i);
 }
